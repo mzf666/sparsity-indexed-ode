@@ -1,0 +1,4 @@
+__pycache__/
+results/
+checkpoints/
+run_docker_tem.sh
