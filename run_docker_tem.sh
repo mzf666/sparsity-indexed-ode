@@ -1,11 +1,10 @@
 #!/bin/bash
 
-CODE_DIR='/home/zhanfeng/Pruning/sparsity-indexed-ode/code'
-MODEL_DIR='/home/zhanfeng/Models'
-RESULTS_DIR='/home/zhanfeng/Pruning/sparsity-indexed-ode/results'
-DATA_DIR='/home/zhanfeng/Data'
+CODE_DIR='xxx/sparsity-indexed-ode/code'
+MODEL_DIR='xxx'
+RESULTS_DIR='xxx'
+DATA_DIR='xxx'
 
-PORT='8891'
 
 docker run -d --rm -h sparse-docker \
   -v $DATA_DIR:/HappyResearch/Data:ro -v $MODEL_DIR:/HappyResearch/Models -v $RESULTS_DIR:/HappyResearch/Results -v $CODE_DIR:/HappyResearch/code:ro \
